@@ -1,0 +1,181 @@
+body {
+	background-color: lightcyan;
+}
+h1{
+    text-align-last: center;
+    color: blue;
+    font-size: 45px;
+}
+.container {
+	position: absolute;
+	display: none;
+	min-width: 200px;
+	top: 50%;
+	left: 50%;
+	margin-left: -190px;
+	margin-top: -210px;
+	width: 335px;
+	height: 350px;
+	border: 2px solid dimgray;
+	box-shadow: 5px 4px 10px 2px gray;
+	border-radius: 20px / 15px;
+	padding: 1.5em;
+	background: #ffffff;
+}
+#left {
+	float: left;
+	width: 100px;
+	height: auto;
+	background-color: lightgray;
+	/*border: medium solid black;	*/
+}
+#right {
+	float: left;
+	width: 225px;
+	/*height: 220px;*/
+	border-left: 2.5px solid gray;	
+	border-top: 2.5px solid gray;
+	background-color: #F9F9F9;
+	padding-top: 15px;
+	padding-bottom: 0.2em;
+}
+
+fieldset {
+	border: 0;
+}
+
+p {
+	font-family: 'Oswald', sans-serif;
+	color: dimgray;
+	margin-bottom: 0;
+	clear: both;
+}
+
+
+
+input {
+	height: 1.5em;
+	border: 2px solid gray;
+	border-radius: 5px / 4px;
+}
+.DClass {
+	width: 80px;
+	height: auto;
+}
+
+.interface {
+	border-bottom: 2.5px solid gray;
+	text-align: center;
+}
+
+#btnSubmit, #btnForget, #btnRegisterSubmit{
+	margin-top: 22px;
+	border-bottom: 2.5px solid gray;
+	border-left: 2.5px solid gray;
+	padding-right: 0px;
+	padding-left: 5px;
+}
+
+
+/*登录界面属性*/
+#Login {
+
+}
+
+#btnLogin {
+	background-color: #F9F9F9;
+	border-top: 2.5px solid gray;
+}
+
+#btnSubmit span{
+	color: #FFC800;
+}
+#btnSubmit {
+	width: 70px;
+}
+
+#btnForget {
+ 	width: 150px;
+}
+
+#photo {
+	position: relative;
+	height: 80px;
+	width: 80px;
+	border-radius: 50%;
+	/*border: medium solid lightgray;*/
+	opacity: 0.7;
+}
+#photo>img {
+	height: 80px;
+	width: 80px;
+	border-radius: 50%;
+	position: relative;
+}
+.photoHover {
+	/*border: 0;*/
+	opacity: 1.0;
+}
+
+/*主持界面属性*/
+#Register {
+	display: none;
+}
+#btnRegist {
+}
+#btnRegisterSubmit span{
+	color: #FFC800;
+}
+
+/*游客快速进入界面属性*/
+#Enter {
+	padding: 35px 25px 45px 25px;
+	display: none;
+}
+
+#btnEnter {
+	background-color: darkgray;
+}
+
+#enterInside {
+	border: thin solid thin;
+	width: 135px;
+	height: 230px;
+	border-radius: 5px / 4px;
+	box-shadow: 4px 3px 8px 2px gray;
+	/*margin: 20px 30px 50px 30px;*/
+	/*padding: 20px 35px 50px 35px;*/
+	padding-left: 35px;
+	padding-top: 20px;
+	background-color: #F9F9F9;
+	/*background-color: rgba(249,249,249, 0.6);*/
+
+	/*opacity: 0.6;*/
+}
+#enterImgBox {
+	width: 100px;
+	height: 100px;
+	padding: 10px;
+	border-radius: 50%;
+}
+#enterImgBox>img {
+	height: 80px;
+	width: 80px;
+	border: 4px double darkgray;
+	/*box-shadow: 2px 1px 2.5px 0.5px gray;*/
+	border-radius: 50%;
+	position: relative;
+}
+#ClickMe {
+	color: #FFC800;
+	margin-left: 25px;
+	margin-top: -10px;
+}
+
+button{
+    height: 25px;
+    width: 80px;
+    background-color: greenyellow;
+}
+
+
