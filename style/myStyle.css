@@ -2,12 +2,6 @@ body{
     margin: 0;
     padding: 0;
 }
-#denglu{
-	background-color: lightcyan;
-    height: 100%;
-    width: 1024px;
-    margin: 0 auto;
-}
 h1{
     text-align-last: center;
     color: blue;
@@ -18,7 +12,7 @@ h1{
 	display: none;
 	min-width: 200px;
 	top: 320px;
-	left: 660px;
+	left: 680px;
 	margin-left: -190px;
 	margin-top: -210px;
 	width: 335px;
@@ -88,7 +82,13 @@ input {
 #Login {
 
 }
-
+#img1{
+    height: 100%;
+    width: 100%;
+    display: inline-block;
+    position: absolute;
+    top: 2px;
+}
 #btnLogin {
 	background-color: #F9F9F9;
 	border-top: 2.5px solid gray;
