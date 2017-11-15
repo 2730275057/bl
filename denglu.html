@@ -3,14 +3,19 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Login</title>
-	<link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
 	<script src="js/jquery-2.2.4.min.js"></script>
 	<link rel="stylesheet" href="style/myStyle.css">
+    <link href="bootstrap-3.3.7-dist/css/bootstrap.min.css">
+    <script>
+        $(function (){
+            $('[data-toggle="popover"]').popover()
+        })
+    </script>
+    
 </head>
- 
 <body>
 <div id="denglu"> 
-    <img id="img1" src="img/7.jpg">
+    <img id="img1" src="img/20.jpg">
 	<div class="container">
 		<form action="http://localhost:1337/" method = "post">
 			<div id="left">
@@ -36,7 +41,7 @@
 						<input type="Password" id="userLoginPassword" name="userLoginPassword" required="true" placeholder="请输入密码">
 					</div>
 					<div class="DClass" id="btnSubmit">
-                        <a href="shouye.html"><button>提交</a></button>
+                        <a href="shouye.html"><button>提交</button></a>
 					</div>
 					<div class="DClass" id="btnForget">
                         <button id="spanForget"><a href="#">忘记密码</a></button>
@@ -60,7 +65,7 @@
 						<input type="email" id="email" name="email" required="" placeholder="请输入邮箱地址">
 					</div>
 					<div class="DClass" id="btnRegisterSubmit">
-                        <button>提交</button>
+                        <button><a id="popover" tabindex="0" class="btn btn-lg btn-danger" role="button" data-toggle="popover" data-trigger="focus"  data-content="注册成功，请登录">提交</a></button>
 					</div>
 				</fieldset>
 				
@@ -68,6 +73,8 @@
 		</form>
 	</div>
 	<script src="js/app.js"></script>
+    <script src="bootstrap-3.3.7-dist/js/bootstrap.js"></script>
+    <script src="bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
  </div>   
 </body>
     

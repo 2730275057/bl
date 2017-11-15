@@ -7,12 +7,41 @@
     background-color:coral; 
     height: 100%
 }
+#title3{
+    height: 20px;
+}
+#trend3{
+    height: 20px;
+    width: 100%;
+    background-color: orange;
+    position: absolute;
+    margin-top: 600px;
+}
+#text3{
+    display: inline-block;
+    float: right;
+    font-size: 18px;
+    margin-top: -35px
+}
+#H3{
+    font-size: 20px;
+    margin-top: 0px;
+     color:white;
+}
+.syn{
+    display: inline-block;
+    float: right;
+    position: absolute;
+    margin-left: 50px;
+}
+.title{
+    height: 20px;
+}
+
 .navbar navbar-default navbar-fixed-top navbar-inverse{
     color: white;
 }
-.trend2{
-    height: 20px;
-}
+
 #text2{
     display: inline-block;
     float: right;
@@ -22,6 +51,7 @@
 .H2{
     font-size: 20px;
     margin-top: 20px;
+     color: white;
 }
 
 .img4{
@@ -30,8 +60,8 @@
     
 }
 .img3{
-    height: 600px;
-    width: 1365px;
+    height: 500px;
+    width: 2000px;
 }
 body{
     padding-top: 70px;
@@ -45,12 +75,6 @@ body{
     height: 50px;
     width:100px;
 }
-.sousuo{
-    display: inline-block;
-    position: absolute;
-    left: 75%;
-}
-
 *{
 	margin: 0;
 	padding: 0;
@@ -60,6 +84,12 @@ body{
     float:right;
     font-size: 30px;
     margin-top: -50px;
+}
+
+#trend2{
+    height: 20px;
+    width: 100%;
+    background-color: orange
 }
 .trend{
     height: 38px;
@@ -125,7 +155,7 @@ ol,ul{
 	background-color: brown;
 	width: 10px;
 	height: 10px;
-	border-radius: 50%;
+	border-radius: 20%;
 	margin-right: 20px;
 	float: left;
 }

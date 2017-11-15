@@ -2,6 +2,14 @@ body{
     margin: 0;
     padding: 0;
 }
+.input-group col-md-3{
+    position: absolute;
+    margin-left: 60%;
+}
+#popover{
+    position: absolute;
+    margin-left: 100px;
+}
 h1{
     text-align-last: center;
     color: blue;
