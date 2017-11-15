@@ -7,6 +7,10 @@
     background-color:coral; 
     height: 100%
 }
+#button6{
+  position: absolute;
+    margin-left: 200px;
+}
 .body-text{
     word-wrap: break-word;
 }
