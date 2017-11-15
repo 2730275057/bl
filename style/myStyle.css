@@ -2,10 +2,7 @@ body{
     margin: 0;
     padding: 0;
 }
-.input-group col-md-3{
-    position: absolute;
-    margin-left: 60%;
-}
+
 #popover{
     position: absolute;
     margin-left: 100px;
@@ -70,13 +67,19 @@ input {
 .DClass {
 	width: 80px;
 	height: auto;
+    
 }
 
 .interface {
 	border-bottom: 2.5px solid gray;
 	text-align: center;
 }
-
+#tijiao{
+    display:inline-block;
+    position: absolute;
+    margin-left: -30px;
+    margin-top: -20px;
+}
 #btnSubmit, #btnForget, #btnRegisterSubmit{
 	margin-top: 22px;
 	border-bottom: 2.5px solid gray;
